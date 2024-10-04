@@ -458,7 +458,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectInteractClip: {fileID: 7400000, guid: 927117635c5f9ca4bb1ca9dfba7dd562, type: 2}
   isInteracting: 0
-  interactionButtonText: Harvest
+  interactionButtonText: 'E: Harvest'
 --- !u!4 &199958208 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5546859872465540050, guid: 3679ef16fc6184844b5a88f99fa70e2c,
@@ -497,7 +497,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectInteractClip: {fileID: 7400000, guid: 927117635c5f9ca4bb1ca9dfba7dd562, type: 2}
   isInteracting: 0
-  interactionButtonText: Harvest
+  interactionButtonText: 'E: Harvest'
 --- !u!4 &381487131 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1903747693045016519, guid: 25f5b1d87bc77dc45a58e992dbcfb582,
@@ -914,6 +914,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: BrightShroom(1)
       objectReference: {fileID: 0}
+    - target: {fileID: 7038476509712346706, guid: d304a846dffec7a489762d369ab393cf,
+        type: 3}
+      propertyPath: interactionButtonText
+      value: 'E: Harvest'
+      objectReference: {fileID: 0}
     - target: {fileID: 7078142930630242680, guid: d304a846dffec7a489762d369ab393cf,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1038,7 +1043,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectInteractClip: {fileID: 7400000, guid: 927117635c5f9ca4bb1ca9dfba7dd562, type: 2}
   isInteracting: 0
-  interactionButtonText: Harvest
+  interactionButtonText: 'E: Harvest'
 --- !u!4 &930745714 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7275501474178780110, guid: c3a6e88362193774d87824adecb23cdc,
@@ -1214,7 +1219,7 @@ MonoBehaviour:
   currentDialogue: 0
   questCompleteDialogue: 0
   isInteracting: 0
-  interactionButtonText: Speak
+  interactionButtonText: 'E: Speak'
   initialNpcDialogue:
   - BOO!
   - I'm a ghost!
@@ -1465,6 +1470,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8710520601197586689, guid: 5f002fe283a4f584b8a9d98c57a0f720,
+        type: 3}
+      propertyPath: interactionButtonText
+      value: 'E: Harvest'
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2063,6 +2073,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: InventoryCanvas
       objectReference: {fileID: 0}
+    - target: {fileID: 8409507338392946562, guid: fc07859010c9ea94782ed8e098621eda,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2406,6 +2421,11 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 418765635}
+    - target: {fileID: 7222364724627262851, guid: 61205995e85a15242aacd1a3a65709cd,
+        type: 3}
+      propertyPath: rotationSpeed
+      value: 0.05
+      objectReference: {fileID: 0}
     - target: {fileID: 7222364724627262851, guid: 61205995e85a15242aacd1a3a65709cd,
         type: 3}
       propertyPath: cameraDistance
